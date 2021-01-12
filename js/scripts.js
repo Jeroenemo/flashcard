@@ -1,6 +1,22 @@
 $(document).ready(function(){
-
-  $(".front").click(function(){
-    $(this).next().show();
+// with on
+  $(".front",".card").on("click", function(){
+    $(this).hide();
+    $(this).siblings(".back").show();
   });
+  $(".back",".card").on("click",function(){
+    $(this).hide();
+    $(this).siblings(".front").show();
+  });
+
+
+// with click
+  // $(".front",".card").click(function(){
+  //   $(this).hide();
+  //   $(this).siblings(".back").show();
+  // });
+  // $(".back",".card").click(function(){
+  //   $(this).hide();
+  //   $(this).siblings(".front").show();
+  // });
 });
