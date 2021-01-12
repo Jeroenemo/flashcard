@@ -11,12 +11,14 @@ $(document).ready(function(){
 
 
 // with click
-  // $(".front",".card").click(function(){
-  //   $(this).hide();
-  //   $(this).siblings(".back").show();
-  // });
-  // $(".back",".card").click(function(){
-  //   $(this).hide();
-  //   $(this).siblings(".front").show();
-  // });
+//   $(".front",".card").click(function(){
+//     $(this).hide();
+//     $(this).siblings(".back").show();
+//   });
+//   $(".back",".card").click(function(){
+//     $(this).hide();
+//     $(this).siblings(".front").show();
+//   });
 });
+
+// When using siblings, siblings apply to all classes/ids within the same div.
